@@ -18,7 +18,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Harden Runner
-        uses: step-security/harden-runner@v2
+        uses: h0x0er/harden-runner@cache-bug-fix
         with:
           egress-policy: block # TODO: change to 'egress-policy: block' after couple of runs
 
